@@ -10,6 +10,11 @@ class CoursesPage extends StatelessWidget {
         title: const Text("Barcha kurslar", style: TextStyle(color: Colors.white, fontSize: 28),),
         backgroundColor: const Color(0xfa05064a),
       ),
+      body: Center(
+        child: ListView.builder(itemBuilder: (context, index){
+          return Card(); // TODO COURSEPAGE
+        }),
+      ),
     );
   }
 }

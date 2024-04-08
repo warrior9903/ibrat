@@ -30,7 +30,7 @@ class InfoAppTwo extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Icon(Icons.circle_rounded, size: 15,color: Colors.white, ),
-                    Icon(Icons.circle_rounded, size: 15, color: Colors.white,),
+                    Icon(Icons.circle_rounded, size: 15, color: Colors.purple,),
                     Icon(Icons.circle_rounded, size: 15, color: Colors.white,),
                   ],
                 ),

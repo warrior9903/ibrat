@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:ibrat/actives/active.dart';
+import 'package:ibrat/courses/course.dart';
+import 'package:ibrat/profile/profile.dart';
 class InfoAppThree extends StatelessWidget {
   const InfoAppThree({super.key});
 
@@ -30,7 +33,7 @@ class InfoAppThree extends StatelessWidget {
                   children: [
                     Icon(Icons.circle_rounded, size: 15,color: Colors.white, ),
                     Icon(Icons.circle_rounded, size: 15, color: Colors.white,),
-                    Icon(Icons.circle_rounded, size: 15, color: Colors.white,),
+                    Icon(Icons.circle_rounded, size: 15, color: Colors.purple,),
                   ],
                 ),
               ),
@@ -58,7 +61,9 @@ class InfoAppThree extends StatelessWidget {
                     ),
                     backgroundColor: Colors.lightBlue,
                   ),
-                  onPressed: (){},
+                  onPressed: (){
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => ActivesPage()));
+                  },
                   child: const Text("O'rganishni boshlash", style: TextStyle(color: Colors.white, fontSize: 28),),
                 ),
 
