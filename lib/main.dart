@@ -8,7 +8,8 @@ void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     // home: ProfilePage(),
-    home: LanguagePage(),
+    // home: LanguagePage(),
+    home: CoursesPage(),
   ));
 }
  class LanguagePage extends StatelessWidget {
